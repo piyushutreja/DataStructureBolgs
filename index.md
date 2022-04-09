@@ -1,6 +1,6 @@
 ## Welcome to DataStructure Blogs 
 
-We will be learning about data structures in this blog.Initial focus will be on basic construction using JAVA and then on the usage of the data strcuture. The examples/problems will emphasize on the real life use cases of the data structures.
+We will be learning about data structures in this blog.Data Strucure can be learnt using any basic programming language and for this blog we will be using JAVA.Our focus will be on basic construction using JAVA and then on the usage of the data strcuture. The examples using the code will emphasize on the real life use cases of the data structures.
 
 
 You can use the [editor on GitHub](https://github.com/piyushutreja/DataStructureBolgs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -10,6 +10,19 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Types of Data Structures
 ### 1.Linear Data Structure
 ### 2.Non Linear Data Structre
+
+
+#### Linked List
+
+##### Construction of Basic Linked List 
+
+
+```tst
+
+dfjfsd sd
+
+```
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
