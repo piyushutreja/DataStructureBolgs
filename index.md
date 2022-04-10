@@ -14,7 +14,100 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 #### Linked List
 
+The linked list has following fucntions 
+1.Insertion:- 
+  -Insertion at end.
+  -Insertin at a specific place.
+2.Traversal
+3.Deletion
+4.Search
+
+
 ##### Construction of Basic Linked List 
+
+```
+public  class LinkedList {
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+    
+    LinkedList list = new LinkedList();
+    
+    list = list.insert(list,1);
+    list = list.insert(list,2);
+    list = list.insert(list,3);
+    list = list.insert(list,4);
+    list = list.insert(list,5);
+    
+    printList(list);
+    
+     }
+
+
+
+    
+    Node head; 
+    
+ static   class Node {
+        
+        int data; 
+        Node next; 
+        
+        Node(int d) 
+        {
+            data = d;
+        }
+    }
+
+
+//Insertion Data
+//1.If linked list is empty it new node will become head
+//2.If the element is already there the node will be added to end and it will poin to null
+
+
+public static LinkedList insert(LinkedList list,int data)
+{
+ //Create Node with data
+ Node new_node = new Node(data);
+ new_node.next = null; 
+ //
+ if(list.head == null)
+ {
+     list.head = new_node; 
+  }
+ 
+  else
+  {
+      
+      //Traverse to last Node and insert node there
+      
+      Node last = list.head; 
+      while (last.next != null)
+      {
+          last = last.next;
+      }
+      
+      last.next = new_node;
+  }
+    return list; 
+}
+
+public static void printList(LinkedList list )
+{
+    Node currNode = list.head; 
+    
+    while (currNode.next != null)
+    {
+        System.out.println(currNode.data);
+        
+        currNode = currNode.next;
+    }
+}
+
+}
+
+```
+
 
 
 ```tst
